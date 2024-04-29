@@ -1,5 +1,6 @@
 import React from "react";
 import '../App.css'
+import "./TableListofTransactions"
  
 const TableListofTransactions=({transactions}) => {
     return (
@@ -24,6 +25,7 @@ const TableListofTransactions=({transactions}) => {
                     ))}
                 </tbody>
             </table>
+            
         </div>
     )
 }

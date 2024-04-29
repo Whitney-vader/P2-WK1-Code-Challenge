@@ -1,4 +1,5 @@
 import { useState } from "react"
+import "./FormofTransactions.css" 
 
 const FormofTransactions = ({ includeTransaction }) => {
   const [date, setDate] = useState("");
@@ -33,7 +34,7 @@ const handleSubmit = (e) => {
             onChange={(e) => setDate(e.target.value)}
           />
         </div>
-{/* Form input of Description */}
+
         <div>
           <input
             type="text"
@@ -43,7 +44,6 @@ const handleSubmit = (e) => {
           />
         </div>
 
-{/* Form input of Category */}
         <div>
           <input
             type="text"
@@ -53,7 +53,7 @@ const handleSubmit = (e) => {
           />
         </div>
 
-{/* Form of Amount  */}
+
         <div>
           <input
             type="number"
