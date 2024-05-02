@@ -10,7 +10,7 @@ const SearchofTransactions=({setSearch})=>{
     }
     return(
         <div className="search">
-             <input className="searchbar" type="text" placeholder="Search for your Recent Transaction" value={searchName} onChange={handleChange} />
+             <input className="searchbar" type="text" placeholder="Search for your Recent Transactions" value={searchName} onChange={handleChange} />
         </div>
     );
 };

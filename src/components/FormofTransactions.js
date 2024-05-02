@@ -26,7 +26,7 @@ const handleSubmit = (e) => {
     <div className="form">
       <form onSubmit={handleSubmit}>
         <div className="form-input">
-        <label>Date</label>
+        <label>Date:</label>
         <div>
           <input
             type="date"
